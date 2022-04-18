@@ -2,3 +2,4 @@ sw_inventory.yaml
 sw_inventory.yml
 output.txt
 sw.py
+__pycache__

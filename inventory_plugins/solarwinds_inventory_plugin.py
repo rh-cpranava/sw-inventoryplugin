@@ -14,12 +14,18 @@ DOCUMENTATION = r'''
       server: 
         description: Server IP
         required: true
+        env:
+          - name: SW_SERVER
       user:
         description: User
         required: true
+        env:
+          - name: SW_USER
       password:
         description: Password
         required: true
+        env:
+          - name: SW_PASS
       port:
         description: Port
         required: true    
